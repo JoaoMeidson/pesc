@@ -1,0 +1,52 @@
+$green: rgb(33, 87, 50);
+$secondary-color: #dcdacc;
+
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    width: 9rem;
+}
+
+.cover-container {
+    width: 100%;
+    height: 30rem;
+    background: url('../../../assets/ursodeoculos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover-header {
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.card-container {
+    background-color: $secondary-color;
+    height: 25rem;
+    width: 100%;
+
+    .card {
+        border: 10px solid $green;
+    }
+}
+
+iframe {
+    margin-right: 2rem;
+    border: 10px solid $green;
+}
+
+footer {
+    color: white;
+    background-color: $green;
+}

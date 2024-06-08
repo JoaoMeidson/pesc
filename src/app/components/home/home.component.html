@@ -1,0 +1,51 @@
+<mat-toolbar class="toolbar-container" color="primary">
+    <picture class="mx-2 my-0">
+        <img class="logo" src="../../../assets/logo pesc.png" alt="Logo Parque Ecológico São Carlos">
+    </picture>
+
+    <div class="d-flex">
+        <button class="d-flex justify-content-center" mat-icon-button (click)="goToFacebook()">
+            <i class="fa-brands fa-facebook"></i>
+        </button>
+        <button class="d-flex justify-content-center" mat-icon-button (click)="goToInstagram()">
+            <i class="fa-brands fa-instagram"></i>
+        </button>
+    </div>
+</mat-toolbar>
+
+<section class="cover-container d-flex">
+    <div class="cover-header d-flex align-items-end m-2">
+        <i class="fa-regular fa-clock fa-3x mx-2"></i>
+        <div class="d-flex flex-column">
+            <span>Terça a Domingo</span>
+            <span>08:00 - 16:30</span>
+        </div>
+    </div>
+</section>
+
+<article class="d-flex justify-content-center container">
+    <section class="card-container my-3 d-flex align-items-center justify-content-end">
+        <iframe width="480" height="320" src="https://www.youtube.com/embed/egkRvQ7_kEw" 
+            title="Conheça o Parque Ecológico de São Carlos" frameborder="0" allowfullscreen 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; rel=0; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </section>
+</article>
+
+<footer>
+    <section class="container d-flex gap-5">
+        <div class="py-3">
+            <h4>Endereço</h4>
+            <span>Estrada Municipal Guilherme Scatena Km 2, São Carlos, SP, Brazil</span>
+        </div>
+    
+        <div class="py-3">
+            <h4>Contato</h4>
+            <div class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-envelope"></i>
+                <span>parque.ecologico@saocarlos.sp.gov.br</span>
+            </div>
+        </div>
+    </section>
+</footer>
