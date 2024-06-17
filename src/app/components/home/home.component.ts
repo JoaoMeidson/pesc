@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  readonly pescEmail = 'parque.ecologico@saocarlos.sp.gov.br';
+
   goToFacebook(): void {
     window.open('https://www.facebook.com/ParqueEcologicoSaoCarlos/', '_blank');
   }
